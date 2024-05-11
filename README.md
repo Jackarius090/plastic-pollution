@@ -1,12 +1,12 @@
 # Plastic Pollution Info Page Project
 
 This project was built to address the issue of plastic pollution.
-It is disigned to inform about the damaging effects of plastic pollution and what kinds of plastic are better than others.
+It is designed to inform about the damaging effects of plastic pollution and what kinds of plastic are better than others.
 
 
 ## Data science section
 
-As part of the project we tried to find realiable data about plastic pollution and visualise this data in an interesting way.
+As part of the project we tried to find reliable data about plastic pollution and visualise this data in an interesting way.
 The data section can be found under the 'Country Data' page of the site.
 
 ## Tech stack
