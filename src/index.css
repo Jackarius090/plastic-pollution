@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  /* font-family: Gill Sans, sans-serif !important; */
+}
+
+.accordian {
+  /* font-family: 'Times New Roman', Times, serif, sans-serif ! !important; */
+}
+
+.carousel {
+  border-radius: 30px;
+  max-width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+#text1 {
+  margin: auto;
+  font-size: x-large;
+}
+
+#image1 {
+  border-radius: 30px;
+  max-width: 35%;
+  height: auto;
+  margin: auto;
+}
+
+.nav-item {
+  padding: 0.5em;
+}
+
+#Countrydata {
+  background-color:
+      #33ff69;
+  border-radius: 10px;
+}
+
+#datablock {
+  background-color: pink;
+  height: 600px;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+}
