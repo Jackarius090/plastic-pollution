@@ -11,14 +11,14 @@ The data section can be found under the 'Country Data' page of the site.
 
 ## Tech stack
 
-The app is built in react, using bootstrap as a CSS framework.
-All data analysis is run in python.
+* The app is built in react, using bootstrap as a CSS framework.
+* All data analysis is run in python.
 
 ## How to run
 
-React projects can be downloaded into a directory.
-The project can then be installed using npm install in the terminal.
-The project can then be loaded using npm start.
+- React projects can be downloaded into a directory.
+- The project can then be installed using npm install in the terminal.
+- The project can then be loaded using npm start.
 
 _____________________________________________________________________
 
