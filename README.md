@@ -1,12 +1,26 @@
-# Getting Started with Create React App
+# Plastic Pollution Info Page Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built to address the issue of plastic pollution.
+It is disigned to inform about the damaging effects of plastic pollution and what kinds of plastic are better than others.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Data science section
 
-### `npm start`
+As part of the project we tried to find realiable data about plastic pollution and visualise this data in an interesting way.
+The data section can be found under the 'Country Data' page of the site.
+
+## Tech stack
+
+The app is built in react, using bootstrap as a CSS framework.
+All data analysis is run in python.
+
+## How to run
+
+React projects can be downloaded into a directory.
+The project can then be installed using npm install in the terminal.
+The project can then be loaded using npm start.
+
+_____________________________________________________________________
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
