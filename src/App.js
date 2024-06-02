@@ -8,8 +8,6 @@ import CountryData from './pages/CountryData';
 import WhatAreWeDoing from './pages/WhatAreWeDoing';
 import GetInvolved from './pages/GetInvolved';
 
-// Hello
-
 
 function App() {
   return (
