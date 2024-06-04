@@ -1,11 +1,25 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Typewriter from 'typewriter-effect';
+import reducePlasticUseImage from '../images/reduce-your-plastic-use.jpg';
+import participateInCleanUpsImage from '../images/participate-in-cleanups.jpg';
+import getInImage1 from '../images/getIn-image1.jpg';
+import getInImage2 from '../images/getIn-image2.jpg';
+import getInImage3 from '../images/getIn-image3.jpg';
 import '../GetInvolved.css';
 
 const GetInvolved = () => {
   return (
     <div className="container my-5">
-      <h1 className="text-center mb-4">Get Involved</h1>
+      <h1 className="text-center mb-4">
+      <Typewriter
+          options={{
+            strings: ['Get Involved'],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+        </h1>
       <p className="text-center mb-5">
         This page provides ways for you to get involved in combating plastic pollution. Every action counts!
       </p>
@@ -17,7 +31,7 @@ const GetInvolved = () => {
         <img
           className="d-inline-flex p-2"
           id="image1"
-          src="https://cdn.pixabay.com/photo/2020/03/11/02/43/ocean-4920792_1280.jpg"
+          src={reducePlasticUseImage}
           alt="Reduce plastic use"
         />
       </div>
@@ -26,7 +40,7 @@ const GetInvolved = () => {
         <img
           className="d-inline-flex p-2"
           id="image1"
-          src="https://images.unsplash.com/photo-1495556650867-99590cea3657?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src= {participateInCleanUpsImage}
           alt="Participate in clean-ups"
         />
         <p id="text1" className="d-inline-flex p-2 text-center text-wrap">
@@ -159,13 +173,13 @@ const GetInvolved = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100 carousel" alt="..."/>
+            <img src= {getInImage1} className="d-block w-100 carousel" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src="https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100 carousel" alt="..."/>
+            <img src= {getInImage2} className="d-block w-100 carousel" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src="https://images.unsplash.com/flagged/photo-1572213426852-0e4ed8f41ff6?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="d-block w-100 carousel" alt="..."/>
+            <img src= {getInImage3} className="d-block w-100 carousel" alt="..."/>
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

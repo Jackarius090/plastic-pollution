@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from './components/Footer';
 import WhatIsTheProblem from './pages/WhatIsTheProblem';
 import CountryData from './pages/CountryData';
