@@ -8,7 +8,7 @@ Our team was set the task of creating a project on the theme of 'sustainabilty'.
 
 To make an informative website showing the scale and impact of plastic waste and what can be done to tackle this problem.
 
-#### The team:
+### The team:
 
 Marco Lolaico - Data Science Track
 
@@ -16,7 +16,7 @@ Krystyna Sajak - Web Development Track
 
 Jack Dickinson - Web Development Track
 
-#### Mentors:
+### Mentors:
 
 Davide Laezza and Jorge Andre
 
