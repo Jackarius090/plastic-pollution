@@ -25,6 +25,7 @@ This project aims to inform the visitor of the website about the scale and damag
 
 ## Background of the project
 The world produces 430 million tonnes of plastic per year. The majority of which has a short life cycle (1).  The devastating effects of this waste are well documented and not going away. While consumer and commercial recycling of plastic is widespread in many areas, this is not a long-term solution.
+
 “We will not recycle our way out of the plastic pollution crisis: we need a systemic transformation to achieve the transition to a circular economy”
 Inger Andersen, UN environment programme executive director
   
