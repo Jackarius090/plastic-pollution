@@ -43,7 +43,9 @@ The project was divided into two parts. The construction and design of the websi
 Website design and construction:
 
 Without any UX/UI designer on our team, Jack took on the role. He first made a rough plan in Figma to get an idea of what the website should look like. This is shown below.
-  
+
+![Figma Design](https://github.com/Krystynka86/plastic-pollution-guide/blob/main/Figma_design.png?raw=true "Figma Design")
+
 Jack then began work on building the separate web pages in HTML and styling with bootstrap and custom CSS.
 In the meantime, Krystyna produced the react project and the framework of the website. She solved the problem of navigation between pages using the React Router. This is a popular solution to this problem which allows the creation of a single page application. Instead of new pages being loaded with new HTTP requests, they are loaded as separate react components.
 
