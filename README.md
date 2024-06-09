@@ -1,19 +1,5 @@
 # Plastic Pollution Info Page Project
 
-This project was built to address the issue of plastic pollution.
-It is designed to inform about the damaging effects of plastic pollution and what kinds of plastic are better than others.
-
-## Data science section
-
-As part of the project we tried to find reliable data about plastic pollution and visualise this data in an interesting way.
-The data section can be found under the 'Country Data' page of the site.
-
-## Tech stack
-
-* The app is built in React, using bootstrap as a CSS framework.
-* All data analysis is run in python.
-
-## Title: 
 Making an informative website showing the scale and impact of plastic waste and what can be done to tackle this problem.
 The team:
 
@@ -40,7 +26,8 @@ A rough draft of the website was made in Figma to get an idea of what the websit
 ## How exactly did you go about it?
 To begin this project, we first clearly defined the problem and solution. As mentioned earlier, the problem is that people are not sufficiently informed about the harms and scale of plastic pollution. The solution is to make a well-designed website with clearly presented information and data that can help people make good decisions on plastic use and show what can be done to solve this problem.
 The project was divided into two parts. The construction and design of the website by Jack and Krystyna, and the data analysis by Marco.
-Website design and construction:
+
+### Website design and construction:
 
 Without any UX/UI designer on our team, Jack took on the role. He first made a rough plan in Figma to get an idea of what the website should look like. This is shown below.
 
