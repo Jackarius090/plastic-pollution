@@ -41,14 +41,20 @@ A rough draft of the website was made in Figma to get an idea of what the websit
 To begin this project, we first clearly defined the problem and solution. As mentioned earlier, the problem is that people are not sufficiently informed about the harms and scale of plastic pollution. The solution is to make a well-designed website with clearly presented information and data that can help people make good decisions on plastic use and show what can be done to solve this problem.
 The project was divided into two parts. The construction and design of the website by Jack and Krystyna, and the data analysis by Marco.
 Website design and construction:
+
 Without any UX/UI designer on our team, Jack took on the role. He first made a rough plan in Figma to get an idea of what the website should look like. This is shown below.
   
 Jack then began work on building the separate web pages in HTML and styling with bootstrap and custom CSS.
 In the meantime, Krystyna produced the react project and the framework of the website. She solved the problem of navigation between pages using the React Router. This is a popular solution to this problem which allows the creation of a single page application. Instead of new pages being loaded with new HTTP requests, they are loaded as separate react components.
-Data Analysis:
+
+### Data Analysis:
+
 Marco made all plots and figures using python.
-Coming together:
+
+### Coming together:
+
 Once we had completed our separate parts of the project. They could be put together. The HTML written by Jack was converted to JSX and copied into the react project made by Krystyna. We also copied the custom CSS file into the project and linked it to the Index.js file. With a little help from our mentor Davide, it worked first time. Beautiful.
+
 Marco’s data could now be added into the Country Data page. We made a new navigation inside the page for each country’s data. This used the same React Router tool we used for the individual pages. Having made this work before, there were no problems, and it was running in no time.
 
 ## Results:
