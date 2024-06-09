@@ -1,6 +1,12 @@
 # Plastic Pollution Info Page Project
 
-Making an informative website showing the scale and impact of plastic waste and what can be done to tackle this problem.
+In April 2024 we began the Tech Labs Digital Shapers Program. A three month bootcamp to learn domain knowledge in the tech sphere. As part of this bootcamp we have made this project to demonstrate what we have learnt.
+
+Our team was set the task of creating a project on the theme of 'sustainabilty'. We brainstormed various ideas of current sustainability problems the world faces and decided on the problem of plastic pollution.
+
+### Our goal:
+
+To make an informative website showing the scale and impact of plastic waste and what can be done to tackle this problem.
 
 #### The team:
 
