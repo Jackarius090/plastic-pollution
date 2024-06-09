@@ -10,7 +10,7 @@ The data section can be found under the 'Country Data' page of the site.
 
 ## Tech stack
 
-* The app is built in react, using bootstrap as a CSS framework.
+* The app is built in React, using bootstrap as a CSS framework.
 * All data analysis is run in python.
 
 ## Title: 
