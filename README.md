@@ -72,7 +72,7 @@ Marco’s data could now be added into the Country Data page. We made a new navi
 ## What is our solution to the problem? 
 We have built a functioning website, soon to be deployed on GitHub Pages. It informs the reader of the problems of plastic pollution, while also offering advice on things they can do to help.
 
-## What are the key findings of your project? 
+## What are the key findings of our project? 
 
 We have learnt many skills from the web development and data sciences tracks we took. There are also the many skills we have learnt from working as a team on this project.
 
