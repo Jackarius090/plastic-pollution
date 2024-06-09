@@ -80,7 +80,7 @@ We have learnt many skills from the web development and data sciences tracks we 
 - Effective communication
 - 
 
-## What is the impact of your results? 
+## What is the impact of this project? 
 
 The website will soon be hosted on GitHub Pages. Where anyone will be able to view it and be informed of plastic pollution.
 
