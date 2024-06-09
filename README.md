@@ -25,7 +25,7 @@ Inger Andersen, UN environment programme executive director
 To realise the systemic change in society needed to eliminate plastic pollution, there must be the political will. As with many environmental causes, there is the need to battle against the economic forces that have got us to where we are today: there is no financial incentive to reduce plastic waste, so the problem can only be solved through regulation by governments.
 For this regulation to be put in place, the people must demand it. 
 
-## What concrete problem should a solution be found?
+## What is the problem?
 People do not know enough about the effects of plastic pollution.
 
 ## Which methods / tools did we use to solve the problem?
