@@ -53,7 +53,15 @@ In the meantime, Krystyna produced the react project and the framework of the we
 
 ### Data Analysis:
 
-Marco made all plots and figures using python.
+Marco was in charge of the data analysis and visualization. He started by finding publicly available data about plastic production and plastic waste. The source of the data used are:
+
+- OECD for the data related to countries that are part of the organisation and for the global plastic production data
+- EPA.gov for the data related to the USA
+- Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. https://doi.org/10.1126/sciadv.aaz5803
+- Geyer et al., Production, use, and fate of all plastics ever made. Sci. Adv.3, e1700782(2017). DOI:10.1126/sciadv.1700782
+
+Marco exported the data in csv format from the different databases and manually filtering the data when necessary, using Google Sheets. He then developed different Python scripts to load and clean the data, depending on what kind of analysis and visualisation was needed. The packages used were mainly pandas for the loading, cleaning and handling the data in general, then matplotlib and seaborn for the data visualisation. The geopandas package was also used to visualise the data for mismanaged plastic waste on a map. The graphs are then saved as svg files, to ensure a proper visualisation on the homepage.
+
 
 ### Coming together:
 
