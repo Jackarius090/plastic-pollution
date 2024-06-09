@@ -15,7 +15,7 @@ Jack Dickinson - Web Development Track
 Davide Laezza and Jorge Andre
 
 ## Precise project summary
-This project aims to inform the visitor of the website about the scale and damage caused by plastic pollution. This is achieved through building a modern, well-designed website that concisely delivers information in way that can be easily understood. The project also includes a novel data analysis of available plastic pollution data. This aims to effectively represent data in a way that makes clear the dire situation of plastic pollution. While the problem is a global one, the website is aimed at European visitors. Data on specific countries has been limited to what is available from reliable sources.
+This project aims to inform the visitor of the website about the scale and damage caused by plastic pollution. This is achieved through building a modern, well-designed website that concisely delivers information in a way that can be easily understood. The project also includes a novel data analysis of available plastic pollution data. This aims to effectively represent data in a way that makes clear the dire situation of plastic pollution. While the problem is a global one, the website is aimed at European visitors. Data on specific countries has been limited to what is available from reliable sources.
 
 ## What was the idea/background of your project? 
 The world produces 430 million tonnes of plastic per year. The majority of which has a short life cycle (1).  The devastating effects of this waste are well documented and not going away. While consumer and commercial recycling of plastic is widespread in many areas, this is not a long-term solution.
