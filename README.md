@@ -1,9 +1,17 @@
 # Plastic Pollution Info Page Project
 
 Making an informative website showing the scale and impact of plastic waste and what can be done to tackle this problem.
-The team:
 
-Mentors:
+#### The team:
+
+Marco Lolaico - Data Science Track
+
+Krystyna Sajak - Web Development Track
+
+Jack Dickinson - Web Development Track
+
+#### Mentors:
+
 Davide Laezza and Jorge Andre
 
 ## Precise project summary
