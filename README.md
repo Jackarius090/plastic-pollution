@@ -61,12 +61,20 @@ Once we had completed our separate parts of the project. They could be put toget
 
 Marco’s data could now be added into the Country Data page. We made a new navigation inside the page for each country’s data. This used the same React Router tool we used for the individual pages. Having made this work before, there were no problems, and it was running in no time.
 
-## Results:
-–  What exactly is your solution to the problem? 
-We have built a functioning website, soon to be deployed on GitHub Pages. It informs the reader of the problems of plastic pollution, while also offering advice on things they can do to help. 
-–  What are the key findings of your project? 
-–  What is the impact of your results? 
+## What is our solution to the problem? 
+We have built a functioning website, soon to be deployed on GitHub Pages. It informs the reader of the problems of plastic pollution, while also offering advice on things they can do to help.
 
+## What are the key findings of your project? 
+
+We have learnt many skills from the web development and data sciences tracks we took. There are also the many skills we have learnt from working as a team on this project.
+
+- Dividing tasks amongst team members
+- Effective communication
+- 
+
+## What is the impact of your results? 
+
+The website will soon be hosted on GitHub Pages. Where anyone will be able to view it and be informed of plastic pollution.
 
 ## References	
-(1)https://www.un.org/sustainabledevelopment/blog/2023/08/explainer-what-is-plastic-pollution/
+(1) https://www.un.org/sustainabledevelopment/blog/2023/08/explainer-what-is-plastic-pollution/
