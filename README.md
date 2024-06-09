@@ -14,10 +14,10 @@ Jack Dickinson - Web Development Track
 
 Davide Laezza and Jorge Andre
 
-## Precise project summary
+## Project summary
 This project aims to inform the visitor of the website about the scale and damage caused by plastic pollution. This is achieved through building a modern, well-designed website that concisely delivers information in a way that can be easily understood. The project also includes a novel data analysis of available plastic pollution data. This aims to effectively represent data in a way that makes clear the dire situation of plastic pollution. While the problem is a global one, the website is aimed at European visitors. Data on specific countries has been limited to what is available from reliable sources.
 
-## What was the idea/background of your project? 
+## Background of the project
 The world produces 430 million tonnes of plastic per year. The majority of which has a short life cycle (1).  The devastating effects of this waste are well documented and not going away. While consumer and commercial recycling of plastic is widespread in many areas, this is not a long-term solution.
 “We will not recycle our way out of the plastic pollution crisis: we need a systemic transformation to achieve the transition to a circular economy”
 Inger Andersen, UN environment programme executive director
@@ -25,13 +25,13 @@ Inger Andersen, UN environment programme executive director
 To realise the systemic change in society needed to eliminate plastic pollution, there must be the political will. As with many environmental causes, there is the need to battle against the economic forces that have got us to where we are today: there is no financial incentive to reduce plastic waste, so the problem can only be solved through regulation by governments.
 For this regulation to be put in place, the people must demand it. 
 
-## To which concrete problem should a solution be found?
+## What concrete problem should a solution be found?
 People do not know enough about the effects of plastic pollution.
 
-## Which methods / tools from your learning tracks did you use to solve the problem?
+## Which methods / tools did we use to solve the problem?
 A rough draft of the website was made in Figma to get an idea of what the website might look like. We then built our project site using the React JavaScript library. The website was designed with bootstrap and custom CSS styling. All data analysis and data representations were made with python.
 
-## How exactly did you go about it?
+## How exactly did we go about it?
 To begin this project, we first clearly defined the problem and solution. As mentioned earlier, the problem is that people are not sufficiently informed about the harms and scale of plastic pollution. The solution is to make a well-designed website with clearly presented information and data that can help people make good decisions on plastic use and show what can be done to solve this problem.
 The project was divided into two parts. The construction and design of the website by Jack and Krystyna, and the data analysis by Marco.
 
