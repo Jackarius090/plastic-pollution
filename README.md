@@ -74,15 +74,21 @@ We have built a functioning website, soon to be deployed on GitHub Pages. It inf
 
 ## What are the key findings of our project? 
 
-We have learnt many skills from the web development and data sciences tracks we took. There are also the many skills we have learnt from working as a team on this project.
+We have learnt many skills from the web development and data sciences tracks we took. There are also many things we have learnt from working as a team on this project.
 
-- Dividing tasks amongst team members
-- Effective communication
-- 
+- Dividing tasks amongst team members: making sure we were working efficiently and had the most important tasks covered without doing things twice.
+- Effective communication: this was important while dividing tasks and making sure we were ready to come together and share what we had made.
+- The importance of UX design: without a dedicated UX designer we needed to come up with something ourselves. While we had 2 team members learning web developement, actually designing something thta looks good is a whole other skill, but one that was fun to try!
+- Technical skills: We of course honed our skills in various technologies, such as: React, bootstrap and python libraries like Pandas and Matplotlib.
+- Sustainability awareness: while the focus of the project was a technical one to showcase our skills, we also learnt more about the plastic pollution crisis and what we can do to help.
 
 ## What is the impact of this project? 
 
-The website will soon be hosted on GitHub Pages. Where anyone will be able to view it and be informed of plastic pollution.
+The website will soon be hosted on GitHub Pages. Where anyone will be able to view it and be informed of plastic pollution. Long term this can hopefully make a difference to peoples perception of the plastic pollition crisis the world faces today.
 
 ## References	
-(1) https://www.un.org/sustainabledevelopment/blog/2023/08/explainer-what-is-plastic-pollution/
+- https://www.un.org/sustainabledevelopment/blog/2023/08/explainer-what-is-plastic-pollution/
+- https://data.oecd.org/
+- https://www.epa.gov/
+- Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. https://doi.org/10.1126/sciadv.aaz5803
+- Geyer et al., Production, use, and fate of all plastics ever made. Sci. Adv.3, e1700782(2017). https://doi.org/10.1126/sciadv.1700782
