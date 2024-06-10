@@ -48,6 +48,7 @@ const CountryData = () => {
 
   return (
     <div>
+      <h1>Country Data</h1>
       <div id='datablock' className='justify-content-center align'
       >
         <nav id='dataNavBar' className="navbar navbar-expand-lg">

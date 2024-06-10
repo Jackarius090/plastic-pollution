@@ -6,6 +6,14 @@ body {
   /* font-family: 'Times New Roman', Times, serif, sans-serif ! !important; */
 }
 
+#piccards {
+  padding: 1% !important;
+}
+
+#whatarewedoingh3 {
+  padding: 2%;
+}
+
 .carousel {
   border-radius: 30px;
   max-width: 80%;

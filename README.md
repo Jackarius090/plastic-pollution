@@ -81,6 +81,7 @@ We have learnt many skills from the web development and data sciences tracks we 
 - The importance of UX design: without a dedicated UX designer we needed to come up with something ourselves. While we had 2 team members learning web developement, actually designing something thta looks good is a whole other skill, but one that was fun to try!
 - Technical skills: We of course honed our skills in various technologies, such as: React, bootstrap and python libraries like Pandas and Matplotlib.
 - Sustainability awareness: while the focus of the project was a technical one to showcase our skills, we also learnt more about the plastic pollution crisis and what we can do to help.
+- Building a website takes a long time: this may be the first time we have built a website. But I underestimated the amount of time it takes to produce a good looking webpage. I hope this is something I can get better at with time.
 
 ## What is the impact of this project? 
 

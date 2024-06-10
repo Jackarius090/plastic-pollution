@@ -1,9 +1,10 @@
 import React from 'react';
 
 const PlasticInfo = () => {
-    return (
-        <div>
-        <div className="d-flex justify-content-center">
+  return (
+    <div>
+      <h1>What is the problem?</h1>
+      <div className="d-flex justify-content-center">
         <p id="text1" className="d-inline-flex p-2 text-center text-wrap">
           430 million tonnes of plastic is produced every year
         </p>
@@ -251,9 +252,9 @@ const PlasticInfo = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      </div>
-        );
-    
+    </div>
+  );
+
 }
 
 export default PlasticInfo;
