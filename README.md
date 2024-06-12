@@ -1,8 +1,8 @@
 # Plastic Pollution Info Page Project
 
-In April 2024 we began the [Tech Labs Digital Shapers Program](https://techlabs.org/). A three month bootcamp providing tech training in web development, data science, AI and UX design. As part of this bootcamp we have made this project to demonstrate what we have learnt.
+In April 2024 we began the [Tech Labs Digital Shapers Program](https://techlabs.org/). A three-month bootcamp providing tech training in web development, data science, AI and UX design. As part of this bootcamp we have made this project to demonstrate what we have learnt.
 
-Our team was set the task of creating a project on the theme of 'sustainabilty'. We brainstormed various ideas of current sustainability problems the world faces and decided on the problem of plastic pollution.
+Our team was set the task of creating a project on the theme of 'sustainability'. We brainstormed various ideas of current sustainability problems the world faces and decided on the problem of plastic pollution.
 
 ### Our goal:
 
@@ -78,18 +78,18 @@ We have learnt many skills from the web development and data sciences tracks we 
 
 - Dividing tasks amongst team members: making sure we were working efficiently and had the most important tasks covered without doing things twice.
 - Effective communication: this was important while dividing tasks and making sure we were ready to come together and share what we had made.
-- The importance of UX design: without a dedicated UX designer we needed to come up with something ourselves. While we had 2 team members learning web developement, actually designing something thta looks good is a whole other skill, but one that was fun to try!
+- The importance of UX design: without a dedicated UX designer we needed to come up with something ourselves. While we had 2 team members learning web development, actually designing something that looks good is a whole other skill, but one that was fun to try!
 - Technical skills: We of course honed our skills in various technologies, such as: React, bootstrap and python libraries like Pandas and Matplotlib.
 - Sustainability awareness: while the focus of the project was a technical one to showcase our skills, we also learnt more about the plastic pollution crisis and what we can do to help.
 - Building a website takes a long time: this may be the first time we have built a website. But I underestimated the amount of time it takes to produce a good looking webpage. I hope this is something I can get better at with time.
 
 ## What is the impact of this project? 
 
-The website will soon be hosted on GitHub Pages. Where anyone will be able to view it and be informed of plastic pollution. Long term this can hopefully make a difference to peoples perception of the plastic pollition crisis the world faces today.
+The website will soon be hosted on GitHub Pages. Where anyone will be able to view it and be informed of plastic pollution. Long term this can hopefully make a difference to peoples perception of the plastic pollution crisis the world faces today.
 
 ## What next?
 
-We will continue to work on this project to make improvements to the design and functionality. There are many design adjustsments to make. Some features that may be added in the future are:
+We will continue to work on this project to make improvements to the design and functionality. There are many design adjustments to make. Some features that may be added in the future are:
 - forum section
 - sustainability quiz
 - plastic identification guide
