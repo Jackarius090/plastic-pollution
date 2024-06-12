@@ -87,6 +87,19 @@ We have learnt many skills from the web development and data sciences tracks we 
 
 The website will soon be hosted on GitHub Pages. Where anyone will be able to view it and be informed of plastic pollution. Long term this can hopefully make a difference to peoples perception of the plastic pollition crisis the world faces today.
 
+## What next?
+
+We will continue to work on this project to make improvements to the design and functionality. There are many design adjustsments to make. Some features that may be added in the future are:
+- forum section
+- sustainability quiz
+- plastic identification guide
+- recycling process overview
+- interactive map showing recycling rates
+- map of recycling points in the local area
+- leaderboard of countries with the best plastic recycling
+- interactive quiz
+- q and a on plastic waste
+  
 ## References	
 - https://www.un.org/sustainabledevelopment/blog/2023/08/explainer-what-is-plastic-pollution/
 - https://data.oecd.org/
