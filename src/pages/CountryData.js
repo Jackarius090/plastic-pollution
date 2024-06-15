@@ -135,189 +135,29 @@ const CountryData = () => {
             </div>
           </div>
         </nav>
-        {figures}
+        <div className='container row text-center'>
+          <div className='col'>
+            {figures}
+          </div>
+        </div>
       </div>
+      <div id='data-info-div' className='container row text-center'>
+        <div id='data-info' className='d-inline-flex p-2 col'>
+          The data was exported in csv format from the different databases and manually filtered when necessary, using Google Sheets. Different Python scripts were used to load and clean the data, depending on what kind of analysis and visualisation was needed.<br></br><br></br> The packages used were mainly pandas for the loading, cleaning and handling the data in general, then matplotlib and seaborn for the data visualisation. The geopandas package was also used to visualise the data for mismanaged plastic waste on a map. <br></br><br></br>The graphs were then saved as svg files, to ensure a proper visualisation on the homepage.
+        </div>
+        <div id='data-info' className='d-inline-flex p-2 col'>
+          Publicly available data about plastic production and plastic waste was found from the following sources:
+          <br></br><br></br>
+          •	OECD for the data related to countries that are part of the organisation and for the global plastic production data
+          <br></br><br></br>
+          •	EPA.gov for the data related to the USA
+          <br></br><br></br>
+          •	Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. https://doi.org/10.1126/sciadv.aaz5803
+          <br></br><br></br>
+          •	Geyer et al., Production, use, and fate of all plastics ever made. Sci. Adv.3, e1700782(2017). DOI:10.1126/sciadv.1700782
 
-      <div className="accordion mx-auto p-5" id="accordionPanelsStayOpenExample">
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseOne"
-              aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseOne"
-            >
-              What this data means
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseOne"
-            className="accordion-collapse collapse show"
-          >
-            <div className="d-flex justify-content-center">
-              <div className="d-inline-flex p-2 text-center text-wrap align-items-center">
-                Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-                Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-                Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-                Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-                Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-                Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-                Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-                Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-                Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-                Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-                Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-                Datadatadata.
-              </div>
-              <img
-                className="d-inline-flex p-2"
-                id="image1"
-                src="https://images.unsplash.com/photo-1529078155058-5d716f45d604?q=80&w=2768&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              />
-            </div>
-          </div>
         </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseTwo"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseTwo"
-            >
-              Where this data comes from
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseTwo"
-            className="accordion-collapse collapse"
-          >
-            <div className="d-flex justify-content-center">
-              <img
-                className="d-inline-flex p-2"
-                id="image1"
-                src="https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
-              />
-              <div className="d-inline-flex p-2 text-center text-wrap align-items-center">
-                Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-                Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-                Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-                Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-                Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-                Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-                Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-                Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-                Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-                Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-                Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-                Datadatadata.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseThree"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseThree"
-            >
-              How these graphs were made
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseThree"
-            className="accordion-collapse collapse"
-          >
-            <div className="accordion-body">
-              Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-              Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-              Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-              Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-              Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-              Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-              Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-              Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-              Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-              Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-              Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-              Datadatadata.
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseFour"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseFour"
-            >
-              More data stuff
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseFour"
-            className="accordion-collapse collapse"
-          >
-            <div className="accordion-body">
-              Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-              Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-              Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-              Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-              Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-              Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-              Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-              Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-              Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-              Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-              Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-              Datadatadata.
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header">
-            <button
-              className="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseFive"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseFive"
-            >
-              blah blah blah
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseFive"
-            className="accordion-collapse collapse"
-          >
-            <div className="accordion-body">
-              Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-              Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-              Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-              Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-              Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-              Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-              Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-              Datadatadata. Datadatadata Datadatadata Datadatadata Datadatadata.
-              Datadatadata Datadatadata Datadatadata Datadatadata. Datadatadata
-              Datadatadata Datadatadata Datadatadata. Datadatadata Datadatadata
-              Datadatadata Datadatadata. Datadatadata Datadatadata Datadatadata
-              Datadatadata.
-            </div>
-          </div>
-        </div>
+
       </div>
       <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-indicators">

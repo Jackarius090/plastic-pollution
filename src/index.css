@@ -10,6 +10,15 @@ body {
   padding: 2% !important;
 }
 
+#data-info {
+  background-color: #cfe2ff;
+  margin: 2%;
+  border-radius: 10px;
+  width: auto;
+  text-align: left;
+  padding: 2% !important;
+}
+
 #whatarewedoingh3 {
   padding: 2%;
 }
@@ -43,6 +52,10 @@ body {
   background-color:
     #33ff69;
   border-radius: 10px;
+}
+
+#data-info-div {
+  margin: auto;
 }
 
 #datablock {
