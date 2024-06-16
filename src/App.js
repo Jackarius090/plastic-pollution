@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from './components/Footer';
@@ -9,25 +8,21 @@ import CountryData from './pages/CountryData';
 import WhatAreWeDoing from './pages/WhatAreWeDoing';
 import GetInvolved from './pages/GetInvolved';
 
-
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <div className="container mt-4">
-          <Switch>
-            <Route path="/what-is-the-problem" component={WhatIsTheProblem} />
-            <Route path="/country-data" component={CountryData} />
-            <Route path="/what-are-we-doing" component={WhatAreWeDoing} />
-            <Route path="/get-involved" component={GetInvolved} />
-          </Switch>
-        </div>
-        <Footer />
+    <div>
+      <Navbar />
+      <div className="container mt-4">
+        <Routes>
+          <Route path="/what-is-the-problem" element={<WhatIsTheProblem />} />
+          <Route path="/country-data" element={<CountryData />} />
+          <Route path="/what-are-we-doing" element={<WhatAreWeDoing />} />
+          <Route path="/get-involved" element={<GetInvolved />} />
+        </Routes>
       </div>
-    </Router>
+      <Footer />
+    </div>
   );
 }
 
 export default App;
-
