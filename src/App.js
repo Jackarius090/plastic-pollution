@@ -15,6 +15,7 @@ function App() {
       <div className="container mt-4">
         <Routes>
           <Route path="/what-is-the-problem" element={<WhatIsTheProblem />} />
+          <Route path="/" element={<WhatIsTheProblem />} />
           <Route path="/country-data" element={<CountryData />} />
           <Route path="/what-are-we-doing" element={<WhatAreWeDoing />} />
           <Route path="/get-involved" element={<GetInvolved />} />
