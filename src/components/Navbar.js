@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/what-is-the-problem">
+        <Link className="navbar-brand" to="/">
           Plastic Recycling Info Page
         </Link>
         <button
