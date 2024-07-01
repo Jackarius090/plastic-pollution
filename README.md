@@ -1,5 +1,7 @@
 # Plastic Pollution Info Page Project
 
+Project link: https://jackarius090.github.io/plastic-pollution/#/what-is-the-problem
+
 In April 2024 we began the [Tech Labs Digital Shapers Program](https://techlabs.org/). A three-month bootcamp providing tech training in web development, data science, AI and UX design. As part of this bootcamp we have made this project to demonstrate what we have learnt.
 
 Our team was set the task of creating a project on the theme of 'sustainability'. We brainstormed various ideas of current sustainability problems the world faces and decided on the problem of plastic pollution.
