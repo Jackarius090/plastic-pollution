@@ -32,15 +32,12 @@ body {
 
 #text1 {
   margin: auto;
-  font-size: x-large;
+  /* font-size: x-large; */
 }
 
 #image1 {
-  border-radius: 30px;
-  max-width: 32%;
-  min-width: 350px;
   height: auto;
-  margin: auto;
+  margin: 1%;
   padding: 1%;
 }
 

@@ -4,25 +4,25 @@ const PlasticInfo = () => {
   return (
     <div>
       <h1>What is the problem?</h1>
-      <div className="d-flex justify-content-center">
-        <p id="text1" className="d-inline-flex p-2 text-center text-wrap">
+      <div className="row">
+        <h3 id="text1" className="col-6 text-center text-wrap">
           430 million tonnes of plastic is produced every year
-        </p>
+        </h3>
         <img
-          className="d-inline-flex p-2"
+          className="col-6 text-center text-wrap"
           id="image1"
           src="https://cdn.pixabay.com/photo/2020/03/11/02/43/ocean-4920792_1280.jpg"
         />
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="row">
         <img
-          className="d-inline-flex p-2"
+          className="col-6 text-center text-wrap"
           id="image1"
           src="https://images.unsplash.com/photo-1495556650867-99590cea3657?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
-        <p id="text1" className="d-inline-flex p-2 text-center text-wrap">
+        <h3 id="text1" className="col-6 text-center text-wrap">
           11 million tonnes of plastic enters the ocean every year
-        </p>
+        </h3>
       </div>
       <div className="accordion mx-auto p-5" id="accordionPanelsStayOpenExample">
         <div className="accordion-item">
