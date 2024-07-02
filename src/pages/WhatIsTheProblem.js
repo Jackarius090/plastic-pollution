@@ -42,8 +42,8 @@ const PlasticInfo = () => {
             id="panelsStayOpen-collapseOne"
             className="accordion-collapse collapse show"
           >
-            <div className="d-flex justify-content-center">
-              <div className="d-inline-flex p-2 text-center text-wrap align-items-center">
+            <div className="row">
+              <div className="col-6 d-flex align-items-center justify-content-center">
                 8 million pieces of plastic pollution make their way into the ocean
                 every day. (OSPAR, 2009) 12 million tonnes of plastic is dumped into
                 the ocean every year (Eunomia, 2016) 80% of all studied marine
@@ -54,7 +54,7 @@ const PlasticInfo = () => {
                 year. (UK Government, 2018)
               </div>
               <img
-                className="d-inline-flex p-2"
+                className="col-6 text-center"
                 id="image1"
                 src="https://images.unsplash.com/photo-1591193686104-fddba4d0e4d8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               />
