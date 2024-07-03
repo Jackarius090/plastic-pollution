@@ -3,7 +3,7 @@ import React from 'react';
 const PlasticInfo = () => {
   return (
     <div>
-      <h1>What is the problem?</h1>
+      <h1>What is the problem???</h1>
       <div className="row">
         <h3 id="text1" className="col-6 text-center text-wrap">
           430 million tonnes of plastic is produced every year
