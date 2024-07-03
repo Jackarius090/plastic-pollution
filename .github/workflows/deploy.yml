@@ -34,15 +34,19 @@ jobs:
           echo "npm install failed, outputting npm debug logs"
           cat /home/runner/.npm/_logs/*.log
 
+      - name: Reinstall dependencies if the initial install failed
+        if: failure()
+        run: |
+          echo "Retrying npm install"
+          npm install
+
       - name: Build project
         run: npm run build
-        if: success()
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./build
-        if: success()
 
   deploy:
     environment:
