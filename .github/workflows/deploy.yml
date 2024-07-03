@@ -26,14 +26,23 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        continue-on-error: true
+
+      - name: Output npm error logs if npm ci fails
+        if: failure()
+        run: |
+          echo "npm install failed, outputting npm debug logs"
+          cat /home/runner/.npm/_logs/*.log
 
       - name: Build project
         run: npm run build
+        if: success()
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./build
+        if: success()
 
   deploy:
     environment:
@@ -45,4 +54,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
-      
