@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/plastic-pollution/static/css/main.629d31d5.css",
+    "main.js": "/plastic-pollution/static/js/main.2d4f1205.js",
+    "static/js/453.6e3efdd1.chunk.js": "/plastic-pollution/static/js/453.6e3efdd1.chunk.js",
+    "static/media/getIn-image2.jpg": "/plastic-pollution/static/media/getIn-image2.7e379778f158b410fea2.jpg",
+    "static/media/getIn-image3.jpg": "/plastic-pollution/static/media/getIn-image3.a0e9a5e080bab5c169a7.jpg",
+    "static/media/reduce-your-plastic-use.jpg": "/plastic-pollution/static/media/reduce-your-plastic-use.6bd04b8dc3805d8b8f4a.jpg",
+    "static/media/participate-in-cleanups.jpg": "/plastic-pollution/static/media/participate-in-cleanups.043b72f0758071d67cf9.jpg",
+    "static/media/getIn-image1.jpg": "/plastic-pollution/static/media/getIn-image1.5a65885568c8651e00e3.jpg",
+    "index.html": "/plastic-pollution/index.html",
+    "main.629d31d5.css.map": "/plastic-pollution/static/css/main.629d31d5.css.map",
+    "main.2d4f1205.js.map": "/plastic-pollution/static/js/main.2d4f1205.js.map",
+    "453.6e3efdd1.chunk.js.map": "/plastic-pollution/static/js/453.6e3efdd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.629d31d5.css",
+    "static/js/main.2d4f1205.js"
+  ]
+}
