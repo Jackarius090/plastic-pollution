@@ -26,19 +26,15 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        continue-on-error: true
+
+      - name: Verify node_modules
+        run: ls -la node_modules
 
       - name: Output npm error logs if npm ci fails
         if: failure()
         run: |
           echo "npm install failed, outputting npm debug logs"
           cat /home/runner/.npm/_logs/*.log
-
-      - name: Reinstall dependencies if the initial install failed
-        if: failure()
-        run: |
-          echo "Retrying npm install"
-          npm install
 
       - name: Build project
         run: npm run build
