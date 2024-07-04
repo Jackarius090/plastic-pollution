@@ -143,7 +143,7 @@ const CountryData = () => {
       </div>
       <div id='data-info-div' className='container row text-center'>
         <div id='data-info' className='d-inline-flex p-2 col'>
-          The data was exported in csv format from the different databases and manually filtered when necessary, using Google Sheets. Different Python scripts were used to load and clean the data, depending on what kind of analysis and visualisation was needed.<br></br><br></br> The packages used were mainly pandas for the loading, cleaning and handling the data in general, then matplotlib and seaborn for the data visualisation. The geopandas package was also used to visualise the data for mismanaged plastic waste on a map. <br></br><br></br>The graphs were then saved as svg files, to ensure a proper visualisation on the homepage.
+          The data was exported in csv format from the different databases and manually filtered when necessary using Google Sheets. Different Python scripts were used to load and clean the data, depending on what kind of analysis and visualisation was needed.<br></br><br></br> The packages used were mainly pandas for the loading, cleaning and handling the data in general, then matplotlib and seaborn for the data visualisation. The geopandas package was also used to visualise the data for mismanaged plastic waste on a map. <br></br><br></br>The graphs were then saved as svg files, to ensure a proper visualisation on the homepage.
         </div>
         <div id='data-info' className='d-inline-flex p-2 col'>
           Publicly available data about plastic production and plastic waste was found from the following sources:
