@@ -6,7 +6,7 @@ const PlasticInfo = () => {
       <h1>What is the problem???</h1>
       <div className="row">
         <h3 id="text1" className="col-6 text-center text-wrap">
-          430 million tonnes of plastic is produced every year
+          430 million tonnes of plastic is produced every year!
         </h3>
         <img
           className="col-6 text-center text-wrap"
@@ -21,7 +21,7 @@ const PlasticInfo = () => {
           src="https://images.unsplash.com/photo-1495556650867-99590cea3657?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
         <h3 id="text1" className="col-6 text-center text-wrap">
-          11 million tonnes of plastic enters the ocean every year
+          11 million tonnes of plastic enters the ocean every year!
         </h3>
       </div>
       <div className="accordion mx-auto p-5" id="accordionPanelsStayOpenExample">
