@@ -136,7 +136,7 @@ const CountryData = () => {
           </div>
         </nav>
         <div className='container row text-center'>
-          <div className='col'>
+          <div >
             {figures}
           </div>
         </div>

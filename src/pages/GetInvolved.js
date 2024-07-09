@@ -6,28 +6,28 @@ import participateInCleanUpsImage from '../images/participate-in-cleanups.jpg';
 import getInImage1 from '../images/getIn-image1.jpg';
 import getInImage2 from '../images/getIn-image2.jpg';
 import getInImage3 from '../images/getIn-image3.jpg';
-import '../GetInvolved.css';
+import '../index.css';
 
 const GetInvolved = () => {
   return (
     <div className="container my-5">
       <h1 className="text-center mb-4">
-      <Typewriter
+        <Typewriter
           options={{
             strings: ['Get Involved'],
             autoStart: true,
             loop: true,
           }}
         />
-        </h1>
+      </h1>
       <p className="text-center mb-5">
         This page provides ways for you to get involved in combating plastic pollution. Every action counts!
       </p>
 
       <div className="d-flex justify-content-center mb-4">
-        <p id="text1" className="d-inline-flex p-2 text-center text-wrap">
+        <h3 id="text1" className="d-inline-flex p-2 text-center text-wrap">
           Reduce your plastic use
-        </p>
+        </h3>
         <img
           className="d-inline-flex p-2"
           id="image1"
@@ -40,12 +40,12 @@ const GetInvolved = () => {
         <img
           className="d-inline-flex p-2"
           id="image1"
-          src= {participateInCleanUpsImage}
+          src={participateInCleanUpsImage}
           alt="Participate in clean-ups"
         />
-        <p id="text1" className="d-inline-flex p-2 text-center text-wrap">
+        <h3 id="text1" className="d-inline-flex p-2 text-center text-wrap">
           Participate in clean-ups
-        </p>
+        </h3>
       </div>
 
       <div className="accordion mx-auto p-5" id="accordionExample">
@@ -173,13 +173,13 @@ const GetInvolved = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src= {getInImage1} className="d-block w-100 carousel" alt="..."/>
+            <img src={getInImage1} className="d-block w-100 carousel" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src= {getInImage2} className="d-block w-100 carousel" alt="..."/>
+            <img src={getInImage2} className="d-block w-100 carousel" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src= {getInImage3} className="d-block w-100 carousel" alt="..."/>
+            <img src={getInImage3} className="d-block w-100 carousel" alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
