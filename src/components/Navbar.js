@@ -23,7 +23,7 @@ const Navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link
-                className="nav-link active"
+                className="nav-link active mx-2"
                 aria-current="page"
                 to="/what-is-the-problem"
               >
@@ -31,17 +31,19 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link id="Countrydata" className="nav-link active" to="/country-data">
-                Country Data
-              </Link>
+              <div id="Countrydata">
+                <Link className="nav-link active mx-2" to="/country-data">
+                  Country Data
+                </Link>
+              </div>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" to="/what-are-we-doing">
+              <Link className="nav-link active mx-2" to="/what-are-we-doing">
                 What are we doing about it?
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" to="/get-involved">
+              <Link className="nav-link active mx-2" to="/get-involved">
                 Get Involved
               </Link>
             </li>

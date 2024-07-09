@@ -44,7 +44,7 @@ code {
 #image1 {
   border-radius: 30px;
   max-width: 35%;
-  min-width: 50px;
+  min-width: 350px;
   height: auto;
   margin: auto;
 }
@@ -53,6 +53,8 @@ code {
   margin: 1%;
   padding: 1%;
   /* min-width: fit-content; */
+  max-width: 500px;
+
   border-radius: 30px !important;
 }
 

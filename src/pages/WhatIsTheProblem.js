@@ -2,29 +2,29 @@ import React from 'react';
 
 const PlasticInfo = () => {
   return (
-    <div>
-      <h1>What is the problem???</h1>
+    <div className='container'>
+      <h1 className='mb-4'>What is the problem</h1>
       <div className="row">
-        <h3 id="text1" className="col-6 text-center text-wrap">
-          430 million tonnes of plastic is produced every year!
+        <h3 id="text1" className="col-12 text-center text-wrap col-md-6">
+          430 million tonnes of plastic is produced every year
         </h3>
         <img
-          className="col-6 text-center text-wrap"
+          className="col-6 text-center text-wrap col-sm-12 my-4"
           id="image1"
           src="https://cdn.pixabay.com/photo/2020/03/11/02/43/ocean-4920792_1280.jpg"
         />
       </div>
       <div className="row">
         <img
-          className="col-6 text-center text-wrap"
+          className="col-6 text-center text-wrap mb-4"
           id="image1"
           src="https://images.unsplash.com/photo-1495556650867-99590cea3657?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
-        <h3 id="text1" className="col-6 text-center text-wrap">
-          11 million tonnes of plastic enters the ocean every year!
+        <h3 id="text1" className="col-12 text-center text-wrap col-md-6">
+          11 million tonnes of plastic enters the ocean every year
         </h3>
       </div>
-      <div className="accordion mx-auto p-5" id="accordionPanelsStayOpenExample">
+      <div className="accordion mx-auto mt-4" id="accordionPanelsStayOpenExample">
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button
@@ -42,22 +42,28 @@ const PlasticInfo = () => {
             id="panelsStayOpen-collapseOne"
             className="accordion-collapse collapse show"
           >
-            <div className="row">
-              <div className="col-6 d-flex align-items-center justify-content-center">
-                8 million pieces of plastic pollution make their way into the ocean
-                every day. (OSPAR, 2009) 12 million tonnes of plastic is dumped into
-                the ocean every year (Eunomia, 2016) 80% of all studied marine
-                debris is plastic. (IUCN, 2020) 5.25 trillion macro and
-                microplastics may now be floating in the open ocean, weighing up to
-                269,000 tonnes. (Eriksen, 2014) 100,000 marine mammals and turtles
-                and 1 million sea birds are killed by marine plastic pollution every
-                year. (UK Government, 2018)
+            <div className='container'>
+              <div className="row align-items-center">
+                <div className="col-12 col-lg-6 text-center p-4">
+                  8 million pieces of plastic pollution make their way into the ocean
+                  every day. (OSPAR, 2009) 12 million tonnes of plastic is dumped into
+                  the ocean every year (Eunomia, 2016) 80% of all studied marine
+                  debris is plastic. (IUCN, 2020)
+
+                  <br></br><br></br>
+
+                  5.25 trillion macro and
+                  microplastics may now be floating in the open ocean, weighing up to
+                  269,000 tonnes. (Eriksen, 2014) 100,000 marine mammals and turtles
+                  and 1 million sea birds are killed by marine plastic pollution every
+                  year. (UK Government, 2018)
+                </div>
+                <img
+                  className="col-12 col-lg-6 text-center pb-3 pt-lg-3"
+                  id="image1"
+                  src="https://images.unsplash.com/photo-1591193686104-fddba4d0e4d8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
               </div>
-              <img
-                className="col-6 text-center"
-                id="image1"
-                src="https://images.unsplash.com/photo-1591193686104-fddba4d0e4d8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              />
             </div>
           </div>
         </div>
@@ -78,20 +84,22 @@ const PlasticInfo = () => {
             id="panelsStayOpen-collapseTwo"
             className="accordion-collapse collapse"
           >
-            <div className="d-flex justify-content-center">
-              <img
-                className="d-inline-flex p-2"
-                id="image1"
-                src="https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
-              />
-              <div className="d-inline-flex p-2 text-center text-wrap align-items-center">
-                12 million tonnes of plastic finds its way into the ocean every
-                single year. 9.5 million tonnes of this enters the ocean from the
-                land with 1.75 tonnes being chucked into the sea directly from the
-                fishing a shipping industry. There are approximately 51 trillion
-                microscopic pieces of plastic, weighing 269,000 tons. That's about
-                the same as 1,345 adult blue whales. And 500 times the number of
-                stars in our galaxy.
+            <div className='container'>
+              <div className="row align-items-center">
+                <img
+                  className="col-12 col-lg-6 text-center py-3"
+                  id="image1"
+                  src="https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
+                />
+                <div className="col-12 col-lg-6 text-center p-4">
+                  12 million tonnes of plastic finds its way into the ocean every
+                  single year. 9.5 million tonnes of this enters the ocean from the
+                  land with 1.75 tonnes being chucked into the sea directly from the
+                  fishing a shipping industry. There are approximately 51 trillion
+                  microscopic pieces of plastic, weighing 269,000 tons. That's about
+                  the same as 1,345 adult blue whales. And 500 times the number of
+                  stars in our galaxy.
+                </div>
               </div>
             </div>
           </div>
@@ -178,7 +186,7 @@ const PlasticInfo = () => {
           </div>
         </div>
       </div>
-      <div id="carouselExampleDark" className="carousel carousel-dark slide">
+      <div id="carouselExampleDark" className="carousel carousel-dark slide p-4">
         <div className="carousel-indicators">
           <button
             type="button"
