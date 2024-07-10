@@ -1,4 +1,5 @@
 # Plastic Pollution Info Page Project
+![icon](https://github.com/Jackarius090/plastic-pollution/blob/main/public/favicon.ico "icon")
 
 Project link: https://jackarius090.github.io/plastic-pollution/
 
