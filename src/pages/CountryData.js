@@ -70,7 +70,7 @@ const CountryData = () => {
                   <a id='dataNavBarButtons'
                     role="button"
                     onClick={globalClick}
-                    className="nav-link active"
+                    className="nav-link active px-2"
                   >
                     Global
                   </a>
@@ -79,7 +79,7 @@ const CountryData = () => {
                   <a id='dataNavBarButtons'
                     role="button"
                     onClick={denmarkClick}
-                    className="nav-link active">
+                    className="nav-link active px-2">
                     Denmark
                   </a>
                 </li>
@@ -87,7 +87,7 @@ const CountryData = () => {
                   <a id='dataNavBarButtons'
                     role="button"
                     onClick={italyClick}
-                    className="nav-link active">
+                    className="nav-link active px-2">
                     Italy
                   </a>
                 </li>
@@ -95,7 +95,7 @@ const CountryData = () => {
                   className="nav-item">
                   <a id='dataNavBarButtons'
                     onClick={swedenClick}
-                    className="nav-link active">
+                    className="nav-link active px-2">
                     Sweden
                   </a>
                 </li>
@@ -103,7 +103,7 @@ const CountryData = () => {
                   className="nav-item">
                   <a id='dataNavBarButtons'
                     onClick={ukClick}
-                    className="nav-link active">
+                    className="nav-link active px-2">
                     UK
                   </a>
                 </li>
@@ -111,7 +111,7 @@ const CountryData = () => {
                   className="nav-item">
                   <a id='dataNavBarButtons'
                     onClick={germanyClick}
-                    className="nav-link active">
+                    className="nav-link active px-2">
                     Germany
                   </a>
                 </li>
@@ -119,7 +119,7 @@ const CountryData = () => {
                   className="nav-item">
                   <a id='dataNavBarButtons'
                     onClick={franceClick}
-                    className="nav-link active">
+                    className="nav-link active px-2">
                     France
                   </a>
                 </li>
@@ -127,7 +127,7 @@ const CountryData = () => {
                   className="nav-item">
                   <a id='dataNavBarButtons'
                     onClick={usaClick}
-                    className="nav-link active">
+                    className="nav-link active px-2">
                     USA
                   </a>
                 </li>
@@ -140,97 +140,99 @@ const CountryData = () => {
         </div>
       </div>
       <div id='data-info-div' className='container text-center'>
+        <div className='row'>
+          <div id='data-info' className='col-12 col-lg-5 p-3 my-4'>
+            The data was exported in csv format from the different databases and manually filtered when necessary using Google Sheets. Different Python scripts were used to load and clean the data, depending on what kind of analysis and visualisation was needed.<br></br><br></br> The packages used were mainly pandas for the loading, cleaning and handling the data in general, then matplotlib and seaborn for the data visualisation. The geopandas package was also used to visualise the data for mismanaged plastic waste on a map. <br></br><br></br>The graphs were then saved as svg files, to ensure a proper visualisation on the homepage.
+          </div>
+          <div id='data-info' className='col-12 col-lg-5 p-3 my-4'>
+            Publicly available data about plastic production and plastic waste was found from the following sources:
+            <br></br><br></br>
+            •	OECD for the data related to countries that are part of the organisation and for the global plastic production data
+            <br></br><br></br>
+            •	EPA.gov for the data related to the USA
+            <br></br><br></br>
+            •	Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. https://doi.org/10.1126/sciadv.aaz5803
+            <br></br><br></br>
+            •	Geyer et al., Production, use, and fate of all plastics ever made. Sci. Adv.3, e1700782(2017). DOI:10.1126/sciadv.1700782
 
-        <div id='data-info' className='d-inline-flex col'>
-          The data was exported in csv format from the different databases and manually filtered when necessary using Google Sheets. Different Python scripts were used to load and clean the data, depending on what kind of analysis and visualisation was needed.<br></br><br></br> The packages used were mainly pandas for the loading, cleaning and handling the data in general, then matplotlib and seaborn for the data visualisation. The geopandas package was also used to visualise the data for mismanaged plastic waste on a map. <br></br><br></br>The graphs were then saved as svg files, to ensure a proper visualisation on the homepage.
+          </div>
         </div>
-        <div id='data-info' className='d-inline-flex col'>
-          Publicly available data about plastic production and plastic waste was found from the following sources:
-          <br></br><br></br>
-          •	OECD for the data related to countries that are part of the organisation and for the global plastic production data
-          <br></br><br></br>
-          •	EPA.gov for the data related to the USA
-          <br></br><br></br>
-          •	Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. https://doi.org/10.1126/sciadv.aaz5803
-          <br></br><br></br>
-          •	Geyer et al., Production, use, and fate of all plastics ever made. Sci. Adv.3, e1700782(2017). DOI:10.1126/sciadv.1700782
-
-        </div>
-
       </div>
-      <div id="carouselExampleDark" className="carousel carousel-dark slide">
-        <div className="carousel-indicators">
+      <div className='py-4 px-lg-5 mx-lg-5'>
+        <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div className="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to={0}
+              className="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            />
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to={1}
+              aria-label="Slide 2"
+            />
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to={2}
+              aria-label="Slide 3"
+            />
+          </div>
+          <div className="carousel-inner">
+            <div className="carousel-item active" data-bs-interval={10000}>
+              <img
+                src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                className="d-block img-fluid carousel"
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <h5 />
+              </div>
+            </div>
+            <div className="carousel-item" data-bs-interval={2000}>
+              <img
+                src="https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                className="d-block img-fluid carousel"
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <h5 />
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://images.unsplash.com/flagged/photo-1572213426852-0e4ed8f41ff6?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                className="d-block img-fluid carousel"
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <h5 />
+              </div>
+            </div>
+          </div>
           <button
+            className="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleDark"
-            data-bs-slide-to={0}
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          />
+            data-bs-slide="prev"
+          >
+            <span className="carousel-control-prev-icon" aria-hidden="true" />
+            <span className="visually-hidden">Previous</span>
+          </button>
           <button
+            className="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleDark"
-            data-bs-slide-to={1}
-            aria-label="Slide 2"
-          />
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to={2}
-            aria-label="Slide 3"
-          />
+            data-bs-slide="next"
+          >
+            <span className="carousel-control-next-icon" aria-hidden="true" />
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval={10000}>
-            <img
-              src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="d-block mx-auto carousel"
-              alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h5 />
-            </div>
-          </div>
-          <div className="carousel-item" data-bs-interval={2000}>
-            <img
-              src="https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="d-block mx-auto carousel"
-              alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h5 />
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://images.unsplash.com/flagged/photo-1572213426852-0e4ed8f41ff6?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="d-block mx-auto carousel"
-              alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h5 />
-            </div>
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span className="carousel-control-prev-icon" aria-hidden="true" />
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true" />
-          <span className="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
   );

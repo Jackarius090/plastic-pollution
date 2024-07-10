@@ -18,11 +18,9 @@ code {
 
 #data-info {
   background-color: #cfe2ff;
-  margin: 2%;
   border-radius: 10px;
-  width: auto;
   text-align: left;
-  padding: 2% !important;
+  margin: auto
 }
 
 #whatarewedoingh3 {
