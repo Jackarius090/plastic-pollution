@@ -31,14 +31,10 @@ code {
 
 .carousel {
   border-radius: 30px;
-  /* max-width: 80%; */
-  /* height: auto; */
-  /* margin: auto; */
 }
 
 #text1 {
   margin: auto;
-  /* font-size: x-large; */
 }
 
 #image1 {
@@ -74,7 +70,6 @@ code {
 
 #datablock {
   background-color: pink;
-  /* height: 600px; */
   width: 95%;
   margin: auto;
   margin-top: 2%;
@@ -87,7 +82,6 @@ code {
 }
 
 #dataNavBarButtons {
-  /* background-color: pink; */
   border: solid;
   border-color: black;
   border-radius: 10px;
